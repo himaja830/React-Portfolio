@@ -26,10 +26,11 @@
     "sendgrid": "^5.2.3"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "dev-start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "start": "serve -s build"
   },
   "eslintConfig": {
     "extends": "react-app"
