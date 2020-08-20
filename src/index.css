@@ -11,3 +11,70 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.s-card {
+  margin: 20px;
+}
+
+.s-card-image {
+  border-radius: 50px;
+  width: 300px;
+  height: 480px;
+  box-shadow: 0px 0px 3px 1px #282828
+}
+
+.s-card-info {
+  margin-top: 10px;
+  min-height: 100px
+}
+
+.s-card-title {
+  margin: 0px;
+  font-size: 24px;
+}
+.s-card-subTitle {
+  margin: 0px;
+  font-size: 16px;
+}
+
+.s-navbar {
+  background-color: whitesmoke;
+  
+}
+.s-footer {
+  background-color: whitesmoke;
+  font-family: cursive;
+  color:black;
+}
+
+.s-h3 {
+  font-family: cursive;
+  color: gray;
+}
+
+.display-1 {
+  font-size: 4rem;
+}
+
+.success-msg {
+  color: #57A773;
+  padding: 10px 15px;
+}
+.err-msg {
+  color: #EE6352;
+  padding: 10px 15px;
+}
+.s-icons {
+  display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.img-mern {
+  border-radius: 80px;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px
+}
