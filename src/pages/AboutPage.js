@@ -1,6 +1,6 @@
 
 import React from 'react';
-import  '/Users/himajauppalapati/Desktop/BootCamp_Activities/HomeWork/portfolio/src/index.css';
+import  '../index.css';
 
 import Jumbo from '../components/Jumbo';
 import Content from '../components/Content';
