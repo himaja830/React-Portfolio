@@ -66,3 +66,17 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+### App Description 
+This is a Personal Portfolio App Created Using React.
+
+### Technologies Used
+* React
+* Sendgrid API(To deliver contact form emails)
+* Express server.
+
+### How To Use
+When you open the deployed link ,You Will be directed to home page. You can toggle on the cards to look into specific project deployed application.You have have navbar at the top of page where you have home,about & contact routes.Clicking on specific route will direct you to to respective pages.The app was designed to be responsive.
+
+### Live Application
+("https://obscure-oasis-25770.herokuapp.com/")
