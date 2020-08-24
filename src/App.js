@@ -47,6 +47,7 @@ class App extends React.Component {
               <Link className="nav-link" to="/">Home</Link>
               <Link className="nav-link" to="/about">About</Link>
               <Link className="nav-link" to="/contact">Contact</Link>
+              <Link className="nav-link" to="https://docs.google.com/document/d/1k3QMn_XeigwSdIjmDWHl84-_EBCMQ16u96NxXKUCMII/edit?usp=sharing">Resume</Link>
               
             </Nav>
 
@@ -56,7 +57,7 @@ class App extends React.Component {
         <Route path="/about" exact render={() => <AboutPage title={this.state.about.title} />}/>
         <Route path="/contact" exact render={() => <ContactPage title={this.state.contact.title}/>}/>
 
-
+        
         <Footer sticky="bottom"/>
         </Container>
       </Router>
