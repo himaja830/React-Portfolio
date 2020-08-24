@@ -1,5 +1,6 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
+import Button from 'react-bootstrap/Button';
 
 
 import Jumbo from '../components/Jumbo';
@@ -24,6 +25,7 @@ function HomePage(props){
     return(
         <div style={{backgroundColor:'#e6e6e6'}}>
          <Jumbo  title={props.title} subTitle={props.subTitle} text={props.text}/>
+         <Button variant="link"><a href="https://docs.google.com/document/d/1k3QMn_XeigwSdIjmDWHl84-_EBCMQ16u96NxXKUCMII/edit?usp=sharing">Resume</a></Button>
          < Carousel />
          <Container className="mr-auto  ml-auto" style={{backgroundColor:'white'}}>
              <img src={image} alt="#" className="img-mern"/>

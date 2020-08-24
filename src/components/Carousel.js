@@ -50,7 +50,7 @@ class Carousel extends React.Component {
             },
             {
                 id: 3,
-                title: '"Rock Your World"',
+                title: '"Rock your World"',
                 subTitle: "This is a trade app with Rock Collection",
                 imgSrc: RockYourWorld,
                 link1: 'https://rock-trader-2020.herokuapp.com/',
