@@ -48,9 +48,9 @@ class App extends React.Component {
               <Link className="nav-link" to="/">Home</Link>
               <Link className="nav-link" to="/about">About</Link>
               <Link className="nav-link" to="/contact">Contact</Link>
-             <Button variant="light"><a href="https://docs.google.com/document/d/1k3QMn_XeigwSdIjmDWHl84-_EBCMQ16u96NxXKUCMII/edit?usp=sharing">Resume</a></Button> 
+             <Button variant="light"><a href="https://docs.google.com/document/d/1k3QMn_XeigwSdIjmDWHl84-_EBCMQ16u96NxXKUCMII/edit?usp=sharing">Resume style={{color:"black"}}</a></Button> 
             </Nav>
-
+ 
           </Navbar.Collapse>
         </Navbar>
         <Route path="/" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text}/>}/>
