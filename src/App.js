@@ -21,7 +21,7 @@ class App extends React.Component {
      headerLinks: [
        { title: 'Home', path: '/'},
        { title: 'About', path: '/about'},
-       { title: 'Contact', path: '/contact'}
+       { title: 'Contact', path: '/contact'},
        { title: 'Resume', path:'https://docs.google.com/document/d/1k3QMn_XeigwSdIjmDWHl84-_EBCMQ16u96NxXKUCMII/edit?usp=sharing'}
      ],
       home: {
