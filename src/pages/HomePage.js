@@ -28,6 +28,7 @@ function HomePage(props){
          
          < Carousel />
          <Container className="mr-auto  ml-auto" style={{backgroundColor:'white'}}>
+             <h2>Skills</h2>
              <img src={image} alt="#" className="img-mern"/>
              <img src={image1} alt="#" className="img-mern"/>
              <img src={image2} alt="#" className="img-mern"/>
