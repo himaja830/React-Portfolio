@@ -28,7 +28,7 @@ function HomePage(props){
          <Jumbo  title={props.title} subTitle={props.subTitle} text={props.text}/>
          
          < Carousel />
-         <h2 className="s-h3">Skills</h2>
+         <h2 className="s-h3">Skills:</h2>
          <Container className="mr-auto  ml-auto" style={{backgroundColor:'white'}}>
              
              <img src={image} alt="#" className="img-mern"/>
