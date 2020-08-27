@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 
 
 
+
 import Jumbo from '../components/Jumbo';
 import Carousel from '../components/Carousel';
 import image from '../assets/images/mern_stack.png';
@@ -27,8 +28,9 @@ function HomePage(props){
          <Jumbo  title={props.title} subTitle={props.subTitle} text={props.text}/>
          
          < Carousel />
+         <h2 className="s-h3">Skills</h2>
          <Container className="mr-auto  ml-auto" style={{backgroundColor:'white'}}>
-             <h2>Skills</h2>
+             
              <img src={image} alt="#" className="img-mern"/>
              <img src={image1} alt="#" className="img-mern"/>
              <img src={image2} alt="#" className="img-mern"/>
