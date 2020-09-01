@@ -49,7 +49,7 @@ class App extends React.Component {
               <Link className="nav-link" to="/">Home</Link>
               <Link className="nav-link" to="/about">About</Link>
               <Link className="nav-link" to="/contact">Contact</Link>
-              <Badge variant="light" ><a href="https://docs.google.com/document/d/1k3QMn_XeigwSdIjmDWHl84-_EBCMQ16u96NxXKUCMII/edit?usp=sharing">Resume</a> </Badge>
+              <Badge variant="light" style={{color:"black"}}><a href="https://docs.google.com/document/d/1k3QMn_XeigwSdIjmDWHl84-_EBCMQ16u96NxXKUCMII/edit?usp=sharing">Resume</a> </Badge>
              
             </Nav>
  
