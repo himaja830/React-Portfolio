@@ -10,8 +10,9 @@ import Jumbo from '../components/Jumbo';
 
 function ContactPage(props){
     
-        return ( <div style={{backgroundColor:'#e6e6e6'}}>
-            <Jumbo title = {this.props.title}/>
+        return ( 
+        <div style={{backgroundColor:'#e6e6e6'}}>
+            <Jumbo title = {props.title}/>
             <Container className="ml-auto mr-auto">
             <i><p style={{textDecoration:'underline'}}> * Can contact me through these profiles or can send me your message through form("Click on these Icons for respective details")</p></i>
            <a href="https://www.linkedin.com/in/himaja-sriramaneni-994937164/"><FontAwesomeIcon icon={faLinkedin} className="fas fa-camera fa-3x" style={{color:'#696969'}} /></a> 

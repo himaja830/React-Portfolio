@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Route, Link} from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import Button from 'react-bootstrap/Button';
 import Badge from 'react-bootstrap/Badge';
 import './App.css';
 
@@ -60,9 +59,11 @@ class App extends React.Component {
         <Route path="/contact" exact render={() => <ContactPage title={this.state.contact.title}/>}/>
 
         
-        <Footer sticky="bottom"/>
+        
         </Container>
+        <Footer sticky="bottom"/>
       </Router>
+      
     );
   }
 }
