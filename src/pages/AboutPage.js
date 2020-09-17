@@ -22,8 +22,8 @@ function AboutPage(props) {
           <p>Hello!</p>
           <p>Welcome to my Portfolio Page.</p>
           <p>
-            I'm Himaja.I'm Full stack Web developer graduated UT Austin Full
-            stack Web Developer Boot Camp .
+            I'm Himaja.I'm Full stack Web developer graduated from UT Austin
+            Full stack Web Developer Boot Camp .
           </p>
 
           <p>
